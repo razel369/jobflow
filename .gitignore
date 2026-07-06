@@ -40,3 +40,4 @@ next-env.d.ts
 # Drizzle
 drizzle/
 drizzle.config.ts.bak
+.vercel
