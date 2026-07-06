@@ -1,0 +1,39 @@
+# JobFlow robots.txt
+# https://jobflow.app/robots.txt
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /dashboard/
+Disallow: /admin/
+
+# AI crawlers — explicitly allowed
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# LLM-specific references
+# /llms.txt — concise site summary for LLMs
+# /agent.json — structured metadata for autonomous agents
+
+Sitemap: https://jobflow.app/sitemap.xml
